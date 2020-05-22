@@ -12,8 +12,9 @@ dot(DOT, file = NULL, return = "auto", display = TRUE)
 \item{file}{defines the file name for exporting the graph. The acceptable file extensions are \code{"ps"} for PostScript and \code{"svg"} for SVG format (see examples below).}
 
 \item{return}{specifies if PS or SVG script should be printed in R console. The acceptable values are \code{"auto"}, \code{"cat"}, \code{"verbatim"}, and \code{NULL}. The default value is \code{"auto"} which does not return anything unless the \code{dot()} function is called within \code{'knitr'} or \code{'rmarkdown'} packages, which require concatenated graphical script. The \code{"cat"} returns concatenated PS or SVG script, printed in multiple lines in the R console. The \code{"verbatim"} returns a single string which is assignable to an object.}
-}
+
 \item{display}{whether to display the DOT plot if the viewer is available. The default is \code{TRUE}.}
+}
 \value{
 By default, the function only renders and loads the DOT plot in RStudio but does not return any PS or SVG script. If the \code{return} argument is specified, it returns PostScript or SVG script. Note that for assigning the script returned from \code{dot()} to an object, only \code{"verbatim"} value can be used to create a string object.
 }
@@ -56,4 +57,3 @@ University of Southern Denmark \cr
 \keyword{literate}
 \keyword{plot}
 \keyword{visualization}
-

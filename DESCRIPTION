@@ -16,4 +16,4 @@ URL: http://haghish.com/dot
 BugReports: http://github.com/haghish/DOT
 Repository: CRAN
 License: MIT + file LICENSE
-RoxygenNote: 5.0.1
+RoxygenNote: 7.1.0
